@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: black;
+    
+}
+body {
+    padding: ;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: "Passion One", sans-serif
+}
+#primeiro{
+    font-family: "Sriracha", cursive;
+}
+header, p {
+    padding-bottom: 50px;
+}
+
+ 
+p{
+    font-family: "Sriracha", cursive;
+}
+#p1 {
+    background-color: rgba(0, 0, 0, 0.355);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 1%;
+}
+ 
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal {
+    background-color: white;
+    color: black;
+ 
+}
+section.imagem {
+    background-color: darkgray;
+    background-image: url(imagens/background001.jpg);
+    height: 100vh;
+   background-attachment: fixed;
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: white;
+    
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+
+}
