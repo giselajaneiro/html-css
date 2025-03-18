@@ -30,21 +30,15 @@ header {
     font-family: var(---fonte2);
     font-size: 10vw;
 }
-
-
+#paragrafo {
+    display: inline-block;
+    padding: 3px 10px;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.121);
+}
 header, p {
     padding-bottom: 50px;
-}
-
- 
-p{
-    font-family: "Sriracha", cursive;
-}
-#p1 {
-    background-color: rgba(0, 0, 0, 0.355);
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 1%;
+    
 }
  
 header a, footer a {
@@ -71,22 +65,30 @@ section.normal {
 }
 
 section.imagem {
-    background-color: darkgray;
-    background-image: url(imagens/background001.jpg);
-    height: 100vh;
-   background-attachment: fixed;
-   background-position: right center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-color: rgba(0, 0, 0, 0.034);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px #000000e4;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#p1{
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+
+}
+section#p2 {
+    background-image: url(imagens/background002.jpg);
+    
+
 }
 
 
-footer{
+footer {
+   font-family: var(---fonte1);
     background-color: black;
     text-align: center;
     color: white;
     padding: 10px;
-    font-family: var(---fonte1);
+   
 
 }
