@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade colgroup </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table {
+            border-collapse: collapse;
+            
+
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            width: 5px;
+            font-weight: bolder;
+        }
+        caption {
+            
+        }
+        .cnome {
+            background-color: azure;
+            
+        }
+        .cidade {
+            background-color: beige;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1> A nova propriedade de colgroup</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="cidade" span="2">
+            <col class="csexo">
+            <col class="cprofissao">
+        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+        <th> Nome</th>
+        <th> Idade</th>
+        <th> Sexo</th>
+        <th> Profissão</th>
+        </tr>
+        <tr>
+            <td> Gisela janeiro</td>
+            <td> 20 anos</td>
+            <td> F</td>
+            <td> Programadora </td>
+        </tr>
+        <tr>
+            <td> Aldimira Janeiro</td>
+            <td> 34 anos</td>
+            <td> F</td>
+            <td> Contabilista</td>
+        </tr>
+        <tr>
+            <td> Ariana Henquires</td>
+            <td> 19 anos</td>
+            <td> F</td>
+            <td> Assistente de bordo</td>
+        </tr>
+        <tr>
+            <td> Denilson</td>
+            <td> 36 anos </td>
+            <td> M</td>
+            <td> Piloto</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
